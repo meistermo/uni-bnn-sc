@@ -1,0 +1,11 @@
+{
+  "manifest_version" : 2,
+  "version" : "1.0",
+  "name" : "Shortcut Collection",
+  "content_scripts":[
+    {
+      "matches":["*"],
+      "js":["main.js"]
+    }
+  ]
+}
