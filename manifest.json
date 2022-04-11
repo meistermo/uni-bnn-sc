@@ -5,7 +5,7 @@
   "content_scripts":[
     {
       "matches":["*"],
-      "js":["main.js"]
+      "js":["ecampus.js"]
     }
   ],
   "browser_action": {
