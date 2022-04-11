@@ -4,7 +4,7 @@
   "name" : "Shortcut Collection",
   "content_scripts":[
     {
-      "matches":["*"],
+      "matches":["*://ecampus.uni-bonn.de/*"],
       "js":["ecampus.js"]
     }
   ],
